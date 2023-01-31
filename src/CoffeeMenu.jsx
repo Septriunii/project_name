@@ -35,7 +35,7 @@ const OrderCoffeeForm = () => {
 
 
     return (
-        <form onSubmit={handleSubmit} onReset={() => submitForm(null)} className="text-white px-3 py-7 mx-auto my-0 w-full max-w-[500px] bg-[brown] rounded-md">
+        <form onSubmit={handleSubmit} onReset={() => submitForm(null)} className="text-white px-3 py-7 mx-auto my-0 w-full max-w-[500px] bg-slate-900 rounded-md">
             <hr className="my-2 h-[2px] bg-slate-300 border-slate-300" />
             <h1 className="text-2xl text-center">Hello! Welcome to <em>La Cafe</em></h1>
             <hr className="my-2 h-[2px] bg-slate-300 border-slate-300" />
